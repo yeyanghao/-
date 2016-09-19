@@ -19,7 +19,7 @@ void inputInfo(STU *stu ){
         printf("请输入第%d个学生的信息\n",i+1);
         printf("学号：");
         scanf("%s",stu[i]->num);
-        printf("姓名：");
+        printf("姓名：++++++++++++++++++");
         scanf("%s",stu[i]->name);
         for (int j = 0; j < 3; j++) {
             printf("科目%d:",j+1);
